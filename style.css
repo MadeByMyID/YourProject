@@ -1,0 +1,68 @@
+@import url(https://fonts.bunny.net/css?family=raleway:200,300,600,600i);
+
+:root {
+    --text-color: #2e2e2e;
+    --background-line: #b9b9b9;
+    --footer-bg-color: #f1f1f1;
+    --footer-border-color: gray;
+    --footer-text-color: #333;
+}
+
+body {
+    background-size: 6em 5em;
+  background-image:
+    linear-gradient(to right, var(--background-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--background-line) 1px, transparent 1px);
+    color: var(--text-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22em;
+    margin-top: 2em;
+}
+
+.header h1 {
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    font-size: 130%;
+    font-weight: 300;
+}
+
+.marq {
+    text-align: start;
+    font-style: italic;
+    overflow: hidden;
+}
+
+.marq marquee {
+    font-size: 140%;
+    background: linear-gradient(to right, #775fff, #fe7bc3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid var(--footer-border-color);
+    margin-top: 20px;
+    margin: 4em -0.5em -4em -0.5em;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--footer-text-color);
+}
